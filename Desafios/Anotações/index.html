@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/lobo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Grande Aula</title>
+</head>
+<body>
+    <h1>Olha o favicon aqui! &#x1f446;</h1>
+    <p>
+        <hr>
+        Aperte aqui para <a href="pag02.html" target="_self" rel="next">SEGUIR</a>
+        <!--target="(_blank | _self)"
+        rel="( prev/voltar | next/próximo | external/externo )"-->
+       <hr>
+    </p>
+    <h2>Principais formatações</h2>
+    
+    <h3>Negrito / Destaque</h3>
+    <main>
+        <p>Nesta frase, temos um - <strong>termo em destaque</strong> - usnado tag &lt;STRONG&gt; (semântica)</p>
+        <p>Nessa frase, temos um - <b>termo em negrito</b> -
+        usando tag &lt;B&gt; (não semântica)</p>
+    </main>
+    
+    <h3>Itálico / Ênfase</h3>
+    <main>
+        <p>Nesta frase, temos um - <em>termo em ênfase</em> - usando a tag &lt;EM&gt; (semântica)</p>
+        <p>Nesta frase, temos um - <i>termo em itálico</i> - usando a tag &lt;I&gt; (não semântica)</p>
+    </main>
+    
+    <h3>Endereço</h3>
+    <main>
+        <p>Podemos criar um endereço usando a Tag &lt;ADDRESS&gt;<address>- Rua Júdia do Melco,700 -</address></p>
+    </main>
+
+    <h3>Texto mascado</h3>
+    <main>
+        <p>Podemos criar um - <mark>texto mascado</mark> - usando a tag &lt;MARK&gt;</p>
+    </main>
+    
+    <h3>Texto grande / Texto pequeno</h3>
+    <main>
+        <p>Nesta frase, temos um - <small>texto pequeno</small> - usando a tag &lt;SMALL&gt;<br>Esse texto tem o significado de algo implícito (semântica)</p>
+        <p>Nesta frase, temos um - <big>texto grande</big> - usando a tag &lt;BIG&gt; (está obsoleto / em des-uso)</p>
+    </main>
+    
+
+    <h3>Texto deletado</h3>
+    <main>
+        <p>Podemos mascar um - <del>texto como excluído</del> - para indicar que ele deve ser lido, mas não considerado. Tag &lt;DEL&gt;</p>
+    </main>
+   
+    <h3>Inserido / Sublinhado</h3>
+    <main>
+        <p>Podemos mascar um - <ins>texto como inserido</ins> - para dar uma ênfase e indicar que ele foi adicionado depois. Tag &lt;INS&gt; (semântica)</p>
+        <p>Existe também o - <u>sublinhado</u> - com a tag &lt;U&gt; (não semântica)</p>
+    </main>
+    
+    <h3> Texto sobrescrito</h3>
+    <main>
+        <p>Para inserir coisas do tipo: x<sup>20</sup>+3. Tag &lt;SUP&gt;</p>
+    </main>
+    
+    <h3>Texto subscrito</h3>
+    <main>
+        <p>Para inserir coisas do tipo: H<sub>2</sub>O. Tag &lt;SUB&gt;</p>
+    </main>
+
+    <h2>Outras formatações</h2>
+    <h3>Código-fonte</h3>
+    <main>
+        <p>O comenado - <code>document.getElementById('teste')</code> - é escrito em linguagem JavaScript. Tag &lt;CODE&gt;</p>
+    </main>
+    <h3>Código Pré-formatação</h3>
+    <main>
+        <p>Usando a tag &lt;PRE&gt; você deixa o texto igual ao do cógido.</p>
+        <pre>
+            <code>
+num= int(input('Digite um número'))
+if num % 2 == 0:
+print(f'O número{num} é PAR')
+else:
+print(f'O número {num} é IMPAR')
+print('Fim do programa')
+            </code>
+        </pre>
+    </main>
+    <h3>Citações simples</h3>
+    <main>
+        <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>. Usa a Tag &lt;Q&gt; (semântica)</p>
+    </main>
+   
+    <h3>Citacões completas</h3>
+    <main>
+        <p>Segundo Robert Greene, no seu livro <q>As 48 Leis do Poder</q>:</p>
+        <blockquote cite="https://idiomus.com/blog/as-48-leis-do-poder-pdf-resumo-audio/">
+            Lei 1: Não ofusque o brilho do mestre <br>
+            Faça com que aqueles que estão, hierarquicamente acima de você sentirem-se superiores. Não exponha seus próprios talentos em demasia, pois isso os tornará inseguros. Assegure-se de que o mestre pareça mais brilhante do que ele é na realidade.
+        </blockquote>
+        <p>Esse texto distacado serve pra citar algo de outro site, porem só para o algaritimo da internete com a tag &lt;BLOCKQUOTE cite="(Link de onde tirou a citação)"&gt;</p>
+    </main>
+
+    <h3>Abreviações</h3>
+    <main>
+        <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando! Tag &lt;ABBR&gt;</p>
+    </main>
+    <h3>Texto invertido</h3>
+    <main>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo>. Tag &lt;BDO&gt;</p>
+    </main>
+    <br>
+    <p>
+        <hr>
+        Aperte aqui para <a href="pag02.html" target="_self" rel="next">SEGUIR</a>
+        <hr>
+    </p>
+</body>
+</html>

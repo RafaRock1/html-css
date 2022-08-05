@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/projetor-de-cinema.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Página 3</h1>
+    <hr>
+    Aperte aqui para <a href="pag03.html" target="_self">VOLTAR</a> | <a href="pag05.html" target="_self">SEGUIR</a><hr></p>
+    
+
+    <h2>Imagem Dinâmica</h2>
+        <main>
+            <p>Tente abrir esse site em vários dispositivos diferentes oou simplemente aumente ou diminua o tamanho do seu navegador.<br>Usando a Tag <code>&lt;PICTURE&gt;</code> e dentro dela <code>&lt;source:media:type&gt; <br>Ex:</code></p>
+            
+                <pre>
+            <code>
+&lt;/picture&gt;
+    &lt;source media="(max-width: <ins>730px</ins>)" srcset="<ins>Imagens/foto-p.png</ins>" 
+    type="image/<ins>png</ins>"&gt;
+            
+    &lt;source media="(max-width: <ins>1030px</ins>)" srcset="<ins>Imagens/foto-m.png</ins>" 
+    type="image/<ins>png</ins>"&gt;
+            
+    &lt;img src="<ins>Imagens/foto-g.png</ins>" alt="<ins>Imagem flexível</ins>"&gt;
+&lt;/picture&gt;
+            </code>
+                </pre>
+        </main>
+        <br>
+    
+    <picture>
+        <source media="(max-width: 730px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    
+    <h2>Reproduzindo Áudio</h2>
+    <main>
+        <p>Vamos aprender a reproduzir áudios em HTML.<br>Usando a Tag &lt;audio&gt;</p>
+    </main>
+
+    <h3>Primeira Forma</h3>
+    <main>
+        <pre>
+            <code>
+        &lt;audio src="(<ins>ARQUIVO</ins>)" <ins>controls</ins> <ins>loop</ins> &gt;&lt;/audio&gt;
+            </code></pre>
+        <p>
+            (<code>controls</code>) é o comando para aparecer o controle. <br>(<code>loop</code>) é o comando pra a música se repetir até darmos pause.
+            <br>(Formatos Compativeis: MP3, OGG, WAV)
+        </p>
+        <audio src="midia/musica01.mp3" controls loop ></audio>
+    </main>
+    <!--FORMATOS COMPATIVEIS: MP3, OGG, WAV-->
+    
+    <h3>Segunda forma</h3>
+    <main>
+        <pre>
+            <code>
+        &lt;audio preload="metadata" controls loop&gt;
+        &lt;source src="midia/musica01.mp3" type="audio/mpeg"&gt;
+        &lt;/audio&gt;
+            </code>
+        </pre>
+        <audio preload="metadata" controls loop>
+            <source src="midia/musica01.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+
+    <p>
+        <hr>
+        Aperte aqui para <a href="pag03.html" target="_self">VOLTAR</a> | <a href="pag05.html" target="_self">SEGUIR</a><hr>
+    </p>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/link.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pag003</title>
+</head>
+<body>
+    <h1>Links e Âncoras</h1>
+    <p>
+        <hr>
+        Aperte aqui para <a href="pag02.html" target="_self" rel="prev">VOLTAR</a> | <a href="pag04.html" target="_self">SEGUIR</a><hr>
+        <!--target="(_blank | _self)"
+        rel="( prev/voltar | next/próximo | external/externo )"-->
+    </p>
+    <h2>Usando links externos</h2>
+    <h3>Sobreposição de Site</h3>
+    <main>
+        <p>Você usa a Tag <code>&lt;A href="(LINK)"&gt;INSTAGRAM&lt;/A&gt;</code></p>
+        <p>Ex: Você pode acessar meu <a href="https://www.instagram.com/">INSTAGRAM</a></p>
+    </main>
+    <h3>Site em Nova Aba</h3>
+    <main>
+        <p>Você usa a Tag
+        <pre>
+            <code>&lt;A href="(LINK)" target="_blank" rel="external"&gt;TIK-TOK&lt;/A&gt;</code>
+        </pre>
+        <br>
+        (<code>target="_blank"</code>) é o comando para abrir o site em uma nova página.<br>
+        (<code>rel="external"</code>) é o comando que indicar o nome da pagina para o algoritimo do google identificar.</p>
+        <p>Ex: Você pode acessar meu <a href="https://www.tiktok.com/" target="_blank" rel="external">TIK-TOK</a></p>
+    </main>
+    <br>
+    <h2>Usando Links Internos</h2>
+    <main>
+        <p>Links internos são os documentos HTML que estão na mesma pasta.</p>
+    </main>
+    <h3>Link em Pasta Anterior</h3>
+    <main>
+        <p>Para acessar um link que está em uma pasta anterior, usa (../) que signicica voltar uma pasta.</p>
+        <p>Ex: Aperte aqui para ir para <a href="teste/pagtest.html"><strong>PagTest</strong></a></p>
+    </main>
+    <br>
+        <h2>Link Download</h2>
+    <main>
+        <ul>
+            <li><a href="curriculo/Currículo Rafael Cesar 2022.pdf" download="Currículo Rafael Cesar 2022.pdf" type="application/pdf">Baixe o curriculo em PDF</a>
+                <li><a href="curriculo/Currículo Rafael Cesar 2022.zip" download="Currículo Rafael Cesar 2022.zip" type="application/zip">Curriculo compactado em ZIP</a></li>
+        </ul>
+    </main>
+
+    <p>
+        <hr>
+        Aperte aqui para <a href="pag02.html" target="_self" rel="prev">VOLTAR</a> | <a href="pag04.html" target="_self">SEGUIR</a> <hr>
+    </p>
+</body>
+</html>

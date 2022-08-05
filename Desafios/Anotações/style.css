@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    background-color: rgb(0, 70, 117);
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 620px;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3{
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 20em;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 580px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px ;
+}
+
+main:hover{
+    background-color: rgba(245, 255, 135, 0.735);
+}
+
+mark{
+    background-color: rgba(27, 245, 245, 0.849);
+}

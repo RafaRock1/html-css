@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/projetor-de-cinema.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <p>----------------------------------------------<br>
+        Aperte aqui para <a href="pag04.html" target="_self">VOLTAR</a><br>----------------------------------------------<br></p>
+    <h1>Tipos de Vídeos</h1>
+    <h2>Vídeos Hospedados Localmente</h2>
+    <p>Este vídeo está hospedado no próprio servidor. usando a Tag <code>&lt;video&gt;</code> (Esse modo não é recomendado pois sai muito caro pro dono do site pelo alto gasto de banda larga) <br>Ex:</p>
+
+    <pre>      
+&lt;video width="500" poster="Imagens/Ocean.png" controls autoplay loop&gt;
+
+    &lt;source src="Imagens/mar.m4v" type="video/mp4"&gt;
+    &lt;source src="Imagens/mar.webm" type="video/webm"&gt;
+    &lt;source src="Imagens/mar.mp4" type="video/mp4"&gt;
+    &lt;p&gt;Seu navegador não tem compatibilidade com reprodução de vídeos.&lt;/p&gt;
+
+&lt;/video&gt;
+    </pre>
+
+    <video width="500" poster="Imagens/Ocean.png" controls autoplay loop>
+        <source src="Imagens/mar.m4v" type="video/mp4">
+        <source src="Imagens/mar.webm" type="video/webm">
+        <source src="Imagens/mar.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h2>Inserindo Vídeo do YouTube</h2>
+    <iframe width="500" height="281" src="https://www.youtube.com/embed/ADPCOxkyrzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Inserindo Vídeo do Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/482463521?h=2f26fc83a1&autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+    <p>----------------------------------------------<br>
+        Aperte aqui para <a href="pag04.html" target="_self">VOLTAR</a><br>----------------------------------------------<br></p>
+</body>
+</html>
